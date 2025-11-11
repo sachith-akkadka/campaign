@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC07MDlsBwIoz3aekY2BkcRUPncO5bUzKM",
+  apiKey:  process.env.Firebase_API,
   authDomain: "campaign-tracker-c67e1.firebaseapp.com",
   projectId: "campaign-tracker-c67e1",
   storageBucket: "campaign-tracker-c67e1.appspot.com",
