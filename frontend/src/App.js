@@ -49,7 +49,7 @@ function RequireLogin() {
   return (
     <div style={{minHeight:"70vh", display:"grid", placeItems:"center"}}>
       <div style={{textAlign:"center"}}>
-        <h2>You must sign in to view the dashboard</h2> //
+        <h2>You must sign in to view the dashboard</h2> 
         <a href="/login" className="btn" style={{textDecoration:'none'}}>Go to Login</a>
       </div>
     </div>
